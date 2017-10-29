@@ -1,0 +1,218 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Garamond, sans-serif;
+    font-size: 1em;
+}
+
+.section {
+    height: 562px;
+    width: 1000px;
+    position: relative;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 0;
+    background-color: #8e7865;
+}
+
+/* HOME SECTION */
+.home {
+    background: url(../images/home_bg.jpg);
+    background-size: 1000px 562px;
+    background-repeat: no-repeat;
+}
+
+nav {
+    padding: 10px 20px 10px 20px;
+}
+
+.search {
+    float: right;
+}
+
+.home-text {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+}
+
+/* ABOUT SECTION */
+.about {
+    background: url(../images/about_bg.jpg);
+    background-size: 1000px 562px;
+    background-repeat: no-repeat;
+}
+
+.about-text {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+}
+
+.about-benefits {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.about-list li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+.about-reserve {
+    position: absolute;
+    left: 362px;
+    bottom: 10%;
+}
+
+#btn-reserve {
+    position: relative;
+    left: 69px;
+}
+
+/* WHY SECTION */
+.why {
+    background: url(../images/why_bg.jpg);
+    background-size: 1000px 562px;
+    background-repeat: no-repeat;
+}
+
+.why-text {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+}
+
+.why-reasons {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+
+.box-left {
+    float: left;
+}
+
+.box-right {
+    float: right;
+}
+
+.box {
+    width: 200px;
+    height: 170px;
+}
+
+.why-book {
+    position: absolute;
+    bottom: 10%;
+    left: 180px;
+}
+
+/* FEATURES SECTION*/
+.features {
+    background: url(../images/feature_bg.jpg);
+    background-size: 1000px 562px;
+    background-repeat: no-repeat;
+}
+
+.features-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+/* TESTIMONIALS SECTION*/
+.testimonials {
+    background: url(../images/testimonial_bg.jpg);
+    background-size: 1000px 562px;
+    background-repeat: no-repeat;
+}
+
+.testimonials-text {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.testimonials-logos {
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+
+.testimonials-logos img {
+    width: 900px;
+    opacity: 0.3;
+}
+
+.testimonial {
+    position: absolute;
+    top: 44%;
+    left: 250px;
+}
+
+blockquote {
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #9e9a96;
+    color: #fff;
+}
+
+#testimonials-book {
+    position: absolute;
+    bottom: 5%;
+    left: 43%;
+}
+
+/* FOOTER SECTION*/
+footer {
+    background: #131313;
+    width: 900px;
+    height: 150px;
+    padding: 50px;
+    position: relative;
+    color: #d7d7d7;
+}
+
+footer a {
+    color: #d7d7d7;
+    text-decoration: none;
+}
+
+footer h4 {
+    color: #252525;
+}
+
+.footer-cols ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.footer-col-1 {
+    position: absolute;
+    left: 25%;
+    top: 30px;
+}
+
+.footer-col-2 {
+    position: absolute;
+    left: 40%;
+    top: 30px;
+}
+
+.footer-col-3 {
+    position: absolute;
+    left: 55%;
+    top: 30px;
+}
+
+.footer-col-4 {
+    position: absolute;
+    left: 70%;
+    top: 72px;
+}
