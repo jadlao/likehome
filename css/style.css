@@ -62,22 +62,30 @@ nav {
     letter-spacing: 2px;
 }
 
-nav ul {
-    display: none;
-    color: red;
-    position: absolute;
-    z-index: 999;
-    top: 14px;
+nav .dropdown {
+    padding-bottom: 10px;
 }
 
-nav i:hover > ul {
+nav i:hover {
+    opacity: 0.5;
+}
+
+nav ul {
+    display: none;
+    position: absolute;
+    z-index: 999;
+    top: 20px;
+}
+
+nav .dropdown:hover > ul {
     display: block;
     list-style: none;
 }
 
 nav ul li {
-    background: #e2dbdb;
+    background: #ddd6d0;
     margin-left: -45px;
+    border-bottom: 1px solid #fff;
 }
 
 nav ul li:hover {
@@ -324,7 +332,7 @@ input[type=text]::-ms-clear, input[type=text]::-ms-reveal {
 .testimonial {
     position: absolute;
     top: 44%;
-    left: 250px;
+    left: 272px;
 }
 
 blockquote {
@@ -341,7 +349,7 @@ blockquote {
 #btn-testimonials {
     position: absolute;
     bottom: 5%;
-    left: 41%;
+    left: 43%;
 }
 
 #quote-prev {
