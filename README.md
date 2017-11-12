@@ -4,4 +4,11 @@ sliced from the PSD file, and the fonts, colours, and spacings were determined.
 
 Demo: https://jadlao.github.io/likehome/
 
-# Video Walkthrough
+# Preview
+![Alt Text](https://image.ibb.co/hX3HJG/likehome01.jpg)
+
+![Alt Text](https://image.ibb.co/bDCoQw/likehome02.jpg)
+
+![Alt Text](https://image.ibb.co/h2yjyG/likehome03.jpg)
+
+![Alt Text](https://image.ibb.co/hfR4yG/likehome04.jpg)
