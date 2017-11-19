@@ -168,6 +168,10 @@ input[type=text]::-ms-clear, input[type=text]::-ms-reveal {
     line-height: 0.9em;
 }
 
+.about-text .location {
+    color: #8e7865;
+}
+
 .about-benefits {
     position: absolute;
     top: 45%;
@@ -429,4 +433,8 @@ footer h4 {
     position: absolute;
     left: 70%;
     top: 66px;
+}
+
+.footer-col-4 ul a:nth-child(5) {
+    color: rgb(149, 87, 25);
 }
